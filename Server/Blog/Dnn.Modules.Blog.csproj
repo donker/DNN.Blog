@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Dnn.Modules.Blog</AssemblyName>
+    <TargetFramework>net462</TargetFramework>
+    <OutputPath>bin</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <Authors>Peter Donker</Authors>
+    <Company>DNN Community</Company>
+    <Product>Blog</Product>
+    <Copyright>2020</Copyright>
+    <PackageId>Blog</PackageId>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Description>Blog Module</Description>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <DebugType>Portable</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net462' ">
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <FrameworkPathOverride>$(NuGetPackageRoot)microsoft.targetingpack.netframework.v4.6.2\1.0.1\lib\net462\</FrameworkPathOverride>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
+    <PackageReference Include="DotNetNuke.Instrumentation" Version="9.0.0.1002" />
+    <PackageReference Include="DotNetNuke.Web.Mvc" Version="9.0.0.1002" />
+    <PackageReference Include="Microsoft.TargetingPack.NETFramework.v4.6.2" Version="1.0.1" ExcludeAssets="All" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
+

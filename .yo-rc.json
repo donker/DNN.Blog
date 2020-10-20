@@ -1,0 +1,22 @@
+{
+  "generator-dotnetnuke": {
+    "promptValues": {
+      "projectname": "Blog",
+      "projectdescription": "Blog Module",
+      "yourname": "Peter Donker",
+      "email": "info@dnncommunity.org",
+      "companyfull": "DNN Community",
+      "companyshort": "Dnn",
+      "companyUrl": "https://dnncommunity.org",
+      "dnnHost": "http://dnndev.me",
+      "dnnRoot": "",
+      "namespace": "Dnn.Modules.Blog",
+      "dnnVersion": "9.0.0",
+      "npm": true
+    },
+    "Company": "DNN Community",
+    "Project": "Blog",
+    "Namespace": "Dnn.Modules.Blog",
+    "Solution": "Dnn.Modules.Blog"
+  }
+}

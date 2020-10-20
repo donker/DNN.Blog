@@ -8,9 +8,9 @@
     ],
     "owner": {
       "name": "Peter Donker",
-      "organization": "DNN Connect",
-      "url": "http://dnn-connect.org",
-      "email": "info@dnn-connect.org"
+      "organization": "DNN Community",
+      "url": "https://dnncommunity.org",
+      "email": "info@dnncommunity.org"
     },
     "pathsAndFiles": {
       "solutionFile": "./DotNetNuke.Modules.Blog.sln",
@@ -44,9 +44,16 @@
     "watch-server": "node watch.js"
   },
   "devDependencies": {
+    "@types/jquery": "^3.3.34",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
     "chokidar": "^3.2.1",
     "deepmerge": "^4.0.0",
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "jquery": "^3.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
